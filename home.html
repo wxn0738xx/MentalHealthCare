@@ -17,35 +17,6 @@
 <body>
 
 <div class="super_container">
-
-	<!-- Menu -->
-
-	<!-- <div class="menu trans_500">
-		<div class="menu_content d-flex flex-column align-items-center justify-content-center text-center">
-			<div class="menu_close_container"><div class="menu_close"></div></div>
-			<form action="#" class="menu_search_form">
-				<input type="text" class="menu_search_input" placeholder="Search" required="required">
-				<button class="menu_search_button"><i class="fa fa-search" aria-hidden="true"></i></button>
-			</form>
-			<ul>
-				<li class="menu_item"><a href="index.html">Home</a></li>
-				<li class="menu_item"><a href="#">About us</a></li>
-				<li class="menu_item"><a href="#">Events</a></li>
-				<li class="menu_item"><a href="news.html">News</a></li>
-				<li class="menu_item"><a href="contact.html">Contact</a></li>
-			</ul>
-		</div>
-		<div class="menu_social">
-			<ul>
-				<li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-			</ul>
-		</div>
-	</div> -->
 	
 	<!-- Home -->
 
@@ -64,12 +35,12 @@
 									<div class="logo">
 										<img src="images/logo.jpg" width="165" height="60" />
 										
-										<a href="#">Mental Health Care</a>	
+										<a href="home.html">Mental Health Care</a>	
 									</div>
 									<div class="header_top_extra d-flex flex-row align-items-center justify-content-start ml-auto">
 										<div class="header_top_nav">
 											<ul class="d-flex flex-row align-items-center justify-content-start">
-												<li><a href="#">Faq</a></li>
+												<li><a href="faq.html">Faq</a></li>
 												<li><a href="contact.html">Contact</a></li>
 												<li><a href="about.html">About</a></li>
 												<li><a href="#">Careers</a></li>
@@ -95,11 +66,11 @@
 										<div class="header_nav_content d-flex flex-row align-items-center justify-content-start">
 											<nav class="main_nav">
 												<ul class="d-flex flex-row align-items-center justify-content-start">
-													<li class="active"><a href="index.html">Home</a></li>
-													<li><a href="services.html">Events</a></li>
+													<li class="active"><a href="home.html">Home</a></li>
+													<li><a href="event.html">Events</a></li>
 													<li><a href="services.html">Services</a></li>
 													<li><a href="news.html">News</a></li>
-													<li><a href="appointment1.html">Appointment</a></li>
+													<li><a href="appointment.html">Appointment</a></li>
 												</ul>
 											</nav>
 											<div class="search_content d-flex flex-row align-items-center justify-content-end ml-auto">
@@ -150,9 +121,9 @@
 					<div class="info_box">
 						<div class="info_image"><img src="images/info_2.jpg" alt=""></div>
 						<div class="info_content">
-							<div class="info_title"><a href="">Emergency Medicine Research Course</a></div>
+							<div class="info_title"><a href="eventsdetail.html">Emergency Medicine Research Course</a></div>
 							<div class="info_text">Arcu neque, scelerisque eget ligula ac, congue tempor felis. Integer tempor, eros a egestas finibus, dolor risus mollis.</div>
-							<div class="button info_button"><a href="#"><span>read more</span><span>read more</span></a></div>
+							<!-- <div class="button info_button"><a href="event.html"><span>read more</span><span>read more</span></a></div> -->
 						</div>
 					</div>
 				</div>
@@ -162,9 +133,9 @@
 					<div class="info_box">
 						<div class="info_image"><img src="images/event_1.jpg" alt=""></div>
 						<div class="info_content">
-							<div class="info_title">Mental Health Online Conference</div>
+							<div class="info_title"><a href="eventsdetail.html">Mental Health Online Conference</a></div>
 							<div class="info_text">Morbi arcu neque, scelerisque eget ligula ac, congue tempor felis. Integer tempor, eros a egestas finibus, dolor risus.</div>
-							<div class="button info_button"><a href="#"><span>read more</span><span>read more</span></a></div>
+							<!-- <div class="button info_button"><a href="event.html"><span>read more</span><span>read more</span></a></div> -->
 						</div>
 					</div>
 				</div>
@@ -174,15 +145,24 @@
 						<div class="info_box">
 							<div class="info_image"><img src="images/info_1.jpg" alt=""></div>
 							<div class="info_content">
-								<div class="info_title">Mental Health Care Workshop</div>
+								<div class="info_title"><a href="eventsdetail.html">Mental Health Care Workshop</a></div>
 								<div class="info_text">Morbi arcu neque, scelerisque eget ligula ac, congue tempor felis. Integer tempor, eros a egestas finibus, dolor risus.</div>
-								<div class="button info_button"><a href="#"><span>read more</span><span>read more</span></a></div>
+								<!-- <div class="button info_button"><a href="event.html"><span>read more</span><span>read more</span></a></div> -->
 							</div>
 						</div>
 					</div>
+
+					
 				</div>
 				
 			</div>
+			<br><br>
+			<div class="row">
+					<div class="col">
+						<div class="button services_button ml-auto mr-auto"><a href="event.html"><span>More Events</span><span>More Events</span></a></div>
+					</div>
+				</div>
+			
 		</div>
 	</div>
 
@@ -190,25 +170,34 @@
 
 <!-- Services -->
 
+
 <div class="services">
 		<div class="container">
+			
 			<div class="row">
 				<div class="col text-center">
 					<div class="section_title">Services</div>
-					<!-- <div class="section_subtitle">to choose from</div> -->
+					
 				</div>
+
 			</div>
+			<!-- <table  align="center">
+					<tr>
+			<td><iframe align="center" src="https://www.youtube.com/embed/7R2j-gxPePE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="width:800px;height:400px;" ></iframe></td>			
+		<td>asdfas</td>s
+		</tr>	
+		</table> -->
+
 			<div class="row icon_boxes_row">
 				
 <!-- Info Box -->
 <div class="col-lg-4 info_box_col">
 		<div class="info_box">
-			<div class="info_image"><iframe  src="https://www.youtube.com/embed/Exk4-aJ3qy4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-			</div>
+			<!-- <div class="info_image"><iframe  src="https://www.youtube.com/embed/Exk4-aJ3qy4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div> -->
 			<div class="info_content">
-				<div class="info_title"><a  href="about.html">Mental Health Online Conference</a></div>
+				<div class="info_title"><a  href="servicesdetail.html">Mental health services for children</a></div>
 				<div class="info_text">Morbi arcu neque, scelerisque eget ligula ac, congue tempor felis. Integer tempor, eros a egestas finibus, dolor risus.</div>
-				<!-- <div class="button info_button"><a href="#"><span>read more</span><span>read more</span></a></div> -->
 			</div>
 		</div>
 	</div>
@@ -216,10 +205,10 @@
 	<!-- Info Box -->
 <div class="col-lg-4 info_box_col">
 		<div class="info_box">
-			<div class="info_image"><iframe  src="https://www.youtube.com/embed/Exk4-aJ3qy4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-			</div>
+			<!-- <div class="info_image"><iframe  src="https://www.youtube.com/embed/Exk4-aJ3qy4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div> -->
 			<div class="info_content">
-				<div class="info_title">Mental Health Online Conference</div>
+				<div class="info_title"><a  href="servicesdetail.html">Mental health services for older people</a></div>
 				<div class="info_text">Morbi arcu neque, scelerisque eget ligula ac, congue tempor felis. Integer tempor, eros a egestas finibus, dolor risus.</div>
 				<!-- <div class="button info_button"><a href="#"><span>read more</span><span>read more</span></a></div> -->
 			</div>
@@ -227,53 +216,21 @@
 	</div>
 	<!-- Info Box -->
 <div class="col-lg-4 info_box_col">
-		<div class="info_box">
-			<div class="info_image"><iframe  src="https://www.youtube.com/embed/Exk4-aJ3qy4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-			</div>
+		<!-- <div class="info_box"> -->
+			<!-- <div class="info_image"><iframe  src="https://www.youtube.com/embed/Exk4-aJ3qy4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div> -->
 			<div class="info_content">
-				<div class="info_title">Mental Health Online Conference</div>
+				<div class="info_title"><a  href="servicesdetail.html">Telephone and online support</a></div>
 				<div class="info_text">Morbi arcu neque, scelerisque eget ligula ac, congue tempor felis. Integer tempor, eros a egestas finibus, dolor risus.</div>
 				<!-- <div class="button info_button"><a href="#"><span>read more</span><span>read more</span></a></div> -->
 			</div>
-		</div>
+		<!-- </div> -->
 	</div>
-
-				<!-- Icon Box -->
-				<!-- <div class="col-xl-4 col-lg-6">
-					<div class="icon_box">
-						<div class="icon_box_title_container d-flex flex-row align-items-center justify-content-start">
-							<div class="icon_box_title">Mental health services for children</div>
-						</div>
-						<div class="icon_box_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lorem maximus malesuada lorem maximus mauris.</div>
-					</div>
-				</div> -->
-
-				<!-- Icon Box -->
-				<!-- <div class="col-xl-4 col-lg-6">
-					<div class="icon_box">
-						<div class="icon_box_title_container d-flex flex-row align-items-center justify-content-start">
-							<div class="icon_box_title">Mental health services for older people</div>
-						</div>
-						<div class="icon_box_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lorem maximus malesuada lorem maximus mauris.</div>
-					</div>
-				</div> -->
-
-				<!-- Icon Box -->
-				<!-- <div class="col-xl-4 col-lg-6">
-					<div class="icon_box">
-						<div class="icon_box_title_container d-flex flex-row align-items-center justify-content-start">
-							<div class="icon_box_title">Telephone and online support</div>
-						</div>
-						<div class="icon_box_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lorem maximus malesuada lorem maximus mauris.</div>
-					</div>
-				</div> -->
-
-				
 
 			</div>
 			<div class="row">
 				<div class="col">
-					<div class="button services_button ml-auto mr-auto"><a href="#"><span>More Services</span><span>More Services</span></a></div>
+					<div class="button services_button ml-auto mr-auto"><a href="services.html"><span>More Services</span><span>More Services</span></a></div>
 				</div>
 			</div>
 		</div>
@@ -281,97 +238,23 @@
 
 <!-- Make Appointment Now -->
 
-<div class="cta">
-		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/cta_1.jpg" data-speed="0.8"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<div class="cta_container d-flex flex-xl-row flex-column align-items-xl-start align-items-center justify-content-xl-start justify-content-center">
-						<div class="cta_content text-xl-left text-center">
-							<div class="cta_title">Make an appointment with one of our professional Doctors.</div>
-							<div class="cta_subtitle">Morbi arcu neque, scelerisque eget ligula ac, congue tempor felis. Integer tempor, eros a egestas.</div>
-						</div>
-						<div class="button cta_button ml-xl-auto"><a href="#"><span>call now</span><span>call now</span></a></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
 
-
-
-
-
-	
-	
-	
-	<!-- Departments -->
-
-	<div class="departments">
-		<div class="container">
-			<div class="row">
-				<div class="col text-center">
-					<div class="section_title">Our Departments</div>
-					<div class="section_subtitle">to choose from</div>
-				</div>
-			</div>
-			<div class="row dept_row">
-				<div class="col">
-					<div class="dept_slider_container_outer">
-						<div class="dept_slider_container">
-
-							<!-- Slider -->
-							<div class="owl-carousel owl-theme dept_slider">
-								
-								<!-- Slide -->
-								<div class="owl-item dept_item">
-									<div class="dept_image"><img src="images/dept_1.jpg" alt=""></div>
-									<div class="dept_content">
-										<div class="dept_title">Neonatology</div>
-										<div class="dept_link"><a href="#">Read More</a></div>
-									</div>
-								</div>
-
-								<!-- Slide -->
-								<div class="owl-item dept_item">
-									<div class="dept_image"><img src="images/dept_2.jpg" alt=""></div>
-									<div class="dept_content">
-										<div class="dept_title">Dentistry</div>
-										<div class="dept_link"><a href="#">Read More</a></div>
-									</div>
-								</div>
-
-								<!-- Slide -->
-								<div class="owl-item dept_item">
-									<div class="dept_image"><img src="images/dept_3.jpg" alt=""></div>
-									<div class="dept_content">
-										<div class="dept_title">Orthopedics</div>
-										<div class="dept_link"><a href="#">Read More</a></div>
-									</div>
-								</div>
-
-								<!-- Slide -->
-								<div class="owl-item dept_item">
-									<div class="dept_image"><img src="images/dept_4.jpg" alt=""></div>
-									<div class="dept_content">
-										<div class="dept_title">Laboratory</div>
-										<div class="dept_link"><a href="#">Read More</a></div>
-									</div>
-								</div>
-
+	<div class="cta">
+			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/cta_1.jpg" data-speed="0.8"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="cta_container d-flex flex-xl-row flex-column align-items-xl-start align-items-center justify-content-xl-start justify-content-center">
+							<div class="cta_content text-xl-left text-center">
+								<div class="cta_title">Make an appointment with our various services.</div>
+								<div class="cta_subtitle">Morbi arcu neque, scelerisque eget ligula ac, congue tempor felis. Integer tempor, eros a egestas.</div>
 							</div>
-							
+							<div class="button cta_button ml-xl-auto"><a href="appointment.html"><span>Book now</span><span>Book now</span></a></div>
 						</div>
-
-						<!-- Dept Slider Nav -->
-						<div class="dept_slider_nav"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
-
 					</div>
-						
 				</div>
 			</div>
 		</div>
-	</div>
 
 	<!-- FAQ & News -->
 
@@ -382,8 +265,8 @@
 				<!-- FAQ -->
 				<div class="col-lg-7">
 					<div class="faq">
-						<div class="faq_title">Faq & Stuff</div>
-						<div class="faq_subtitle">read all about it</div>
+						<div class="faq_title">Faq</div>
+						<div class="faq_subtitle"><a href="faq.html">&RightArrow;Read more</a></div>
 						<div class="elements_accordions">
 							<div class="accordions">
 
@@ -423,21 +306,19 @@
 				<div class="col-lg-5">
 					<div class="news">
 						<div class="news_title">Latest News</div>
-						<div class="news_subtitle">read all about it</div>
+						<div class="news_subtitle"><a href="news.html">&RightArrow;Read more</a></div>
 						<div class="news_container">
 
 							<!-- Latest News Post -->
 							<div class="latest d-flex flex-row align-items-start justify-content-start">
 								<div><div class="latest_image"><img src="images/latest_1.jpg" alt=""></div></div>
 								<div class="latest_content">
-									<div class="latest_title"><a href="news.html">A simple blog post</a></div>
+									<div class="latest_title"><a href="news.html">Stopping bullying and harassment in our hospitals</a></div>
 									<div class="latest_info">
 										<ul class="d-flex flex-row align-items-start justify-content-start">
-											<li><a href="#">by Jane Smith</a></li>
-											<li><a href="#">April 25, 2018</a></li>
+											<li>April 25, 2019</li>
 										</ul>
 									</div>
-									<div class="latest_comments"><a href="#">2 Comments</a></div>
 								</div>
 							</div>
 
@@ -445,14 +326,13 @@
 							<div class="latest d-flex flex-row align-items-start justify-content-start">
 								<div><div class="latest_image"><img src="images/latest_2.jpg" alt=""></div></div>
 								<div class="latest_content">
-									<div class="latest_title"><a href="news.html">A new way to see things in medicine</a></div>
+									<div class="latest_title"><a href="news.html">Melbourne set to host World Congress on Public Health
+										</a></div>
 									<div class="latest_info">
 										<ul class="d-flex flex-row align-items-start justify-content-start">
-											<li><a href="#">by Jane Smith</a></li>
-											<li><a href="#">April 25, 2018</a></li>
+											<li>April 25, 2019</li>
 										</ul>
 									</div>
-									<div class="latest_comments"><a href="#">2 Comments</a></div>
 								</div>
 							</div>
 
@@ -460,14 +340,12 @@
 							<div class="latest d-flex flex-row align-items-start justify-content-start">
 								<div><div class="latest_image"><img src="images/latest_3.jpg" alt=""></div></div>
 								<div class="latest_content">
-									<div class="latest_title"><a href="news.html">Why is Pharma industry so big?</a></div>
+									<div class="latest_title"><a href="news.html">Mental Health Week 2019</a></div>
 									<div class="latest_info">
 										<ul class="d-flex flex-row align-items-start justify-content-start">
-											<li><a href="#">by Jane Smith</a></li>
-											<li><a href="#">April 25, 2018</a></li>
+											<li>April 25, 2019</li>
 										</ul>
 									</div>
-									<div class="latest_comments"><a href="#">2 Comments</a></div>
 								</div>
 							</div>
 
@@ -496,8 +374,8 @@
 							<div class="logo">
 								<a>Topics<a>	
 							</div>
-							<div class="footer_about_text"><a href="#">Services</a></div>
-							<div class="footer_about_text"><a href="#">Appointment</a></div>							
+							<div class="footer_about_text"><a href="services.html">Services</a></div>
+							<div class="footer_about_text"><a href="appointment.html">Appointment</a></div>							
 						</div>
 					</div>
 
@@ -507,8 +385,8 @@
 								<div class="logo">
 									<a>Find<a>	
 								</div>
-								<div class="footer_about_text"><a href="#">Events</div>
-								<div class="footer_about_text"><a href="#">News</a></div>
+								<div class="footer_about_text"><a href="event.html">Events</div>
+								<div class="footer_about_text"><a href="news.html">News</a></div>
 								<div class="footer_about_text"><a href="#">Careers</a></div>							
 							</div>
 						</div>
@@ -519,9 +397,9 @@
 								<div class="logo">
 									<a>Support<a>	
 								</div>
-								<div class="footer_about_text"><a href="#">Contact</div>
-								<div class="footer_about_text"><a href="#">About</a></div>
-								<div class="footer_about_text"><a href="#">Faq</a></div>							
+								<div class="footer_about_text"><a href="contact.html">Contact</div>
+								<div class="footer_about_text"><a href="about.html">About</a></div>
+								<div class="footer_about_text"><a href="faq.html">Faq</a></div>							
 							</div>
 						</div>
 
@@ -531,9 +409,9 @@
 								<div class="logo">
 									<a>Connect<a>	
 								</div>
-								<div class="footer_about_text"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i>&nbsp&nbspTwitter</div>
-								<div class="footer_about_text"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i>&nbsp&nbspFacebook</div>
-								<div class="footer_about_text"><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i>&nbsp&nbspYoutube</div>							
+								<div class="footer_about_text"><a href="https://twitter.com/vicgovau"><i class="fa fa-twitter" aria-hidden="true"></i>&nbsp&nbspTwitter</div>
+								<div class="footer_about_text"><a href="https://www.facebook.com/mentalhealthcomplaintscommissioner"><i class="fa fa-facebook" aria-hidden="true"></i>&nbsp&nbspFacebook</div>
+								<div class="footer_about_text"><a href="https://www.youtube.com/user/betterhealthchannel"><i class="fa fa-youtube" aria-hidden="true"></i>&nbsp&nbspYoutube</div>							
 							</div>
 						</div>
 
@@ -545,34 +423,6 @@
 		</div>
 		<div class="footer_bar">
 			<div class="container">
-				<!-- <div class="row">
-					<div class="col">
-						<div class="footer_bar_content d-flex flex-sm-row flex-column align-items-lg-center align-items-start justify-content-start">
-							<nav class="footer_nav">
-								<ul class="d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-start">
-									<li class="active"><a href="index.html">Home</a></li>
-									<li><a href="about.html">About Us</a></li>
-									<li><a href="about.html">About Us</a></li>
-									<li><a href="about.html">About Us</a></li>
-									<li><a href="services.html">Services</a></li>
-									<li><a href="news.html">News</a></li>
-									<li><a href="contact.html">Contact</a></li>
-								</ul>
-							</nav>
-							<div class="footer_links">
-								<ul class="d-flex flex-lg-row flex-column align-items-lg-center align-items-start justify-content-start">
-									<li><a href="#">Help Desk</a></li>
-									<li><a href="#">Emergency Services</a></li>
-									<li><a href="#">Appointment</a></li>
-								</ul>
-							</div>
-							<div class="footer_phone ml-lg-auto">
-								<i class="fa fa-phone" aria-hidden="true"></i>
-								<span>+34 586 778 8892</span>
-							</div>
-						</div>
-					</div>
-				</div>  -->
 
 				<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 					<a>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with</a> <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" >Colorlib</a>

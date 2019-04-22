@@ -1106,38 +1106,6 @@ section
 	color: #404040;
 }
 
-/*********************************
-7. Google Map
-*********************************/
-
-.contact_map
-{
-	width: 100%;
-	height: 752px;
-	margin-top: 125px;
-	z-index: 1;
-}
-.map
-{
-	width: 100%;
-	height: 100%;
-}
-.google_map
-{
-	width: 100%;
-	height: 100%;
-}
-.map_container
-{
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
-}
-#map
-{
-	width: 100%;
-	height: calc(100% + 30px);
-}
 
 /*********************************
 8. Footer

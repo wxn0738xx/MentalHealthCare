@@ -67,6 +67,7 @@ p
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
+	
 }
 p a
 {
@@ -83,6 +84,10 @@ p a
 p:last-of-type
 {
 	margin-bottom: 0;
+}
+a
+{
+	color:#404040;
 }
 a, a:hover, a:visited, a:active, a:link
 {
@@ -222,7 +227,8 @@ section
 .parallax-window
 {
     min-height: 400px;
-    background: transparent;
+	/* background: transparent; */
+	background-color: #6a6d72;
 }
 .parallax_background
 {
@@ -333,11 +339,25 @@ section
 	color: #404040;
 	line-height: 0.75;
 }
+.section_details
+{
+	font-size: 20px;
+	font-weight: 600;
+	color: #404040;
+	line-height: 0.75;
+}
+.section_details_font
+{
+	font-size: 15px;
+	font-weight: 600;
+	color: #404040;
+	line-height: 0.75;
+}
 .section_subtitle
 {
 	font-size: 11px;
 	font-weight: 600;
-	color: #838383;
+	color:#404040;
 	line-height: 0.75;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
@@ -1098,6 +1118,13 @@ section
 {
 	color: #FFFFFF;
 }
+.footer_about_text a
+{
+	
+	color: #FFFFFF;
+	/* color:#FFFFFF; */
+	
+}
 .footer_about_text
 {
 	font-size: 14px;
@@ -1310,3 +1337,304 @@ section
 	font-size: 20px;
 	color: #32c69a;
 }
+
+/*********************************
+6. Info Boxes
+*********************************/
+
+.info
+{
+	width: 100%;
+	background: #FFFFFF;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.info_box
+{
+	width: 100%;
+	background: #f4f8fb;
+}
+.info_image
+{
+	width: 100%;
+}
+.info_image img
+{
+	max-width: 100%;
+}
+.info_content
+{
+	padding-left: 38px;
+	padding-top: 46px;
+	padding-right: 20px;
+	padding-bottom: 31px;
+}
+.info_title
+{
+	font-size: 20px;
+	font-weight: 600;
+	color: #404040;
+}
+.info_text
+{
+	font-size: 14px;
+	font-weight: 500;
+	color: #838383;
+	line-height: 1.95;
+	margin-top: 14px;
+}
+.info_button
+{
+	margin-top: 26px;
+}
+.info_form_container
+{
+	width: 100%;
+	background: #e5ecf1;
+	height: 100%;
+	padding-left: 43px;
+	padding-top: 50px;
+}
+.info_form_title
+{
+	font-size: 24px;
+	font-weight: 600;
+	color: #404040;
+	line-height: 1.2;
+}
+.info_form
+{
+	width: 100%;
+	padding-right: 44px;
+	margin-top: 43px;
+}
+.info_form select
+{
+	margin-bottom: 26px;
+}
+.info_form input:not(:last-child)
+{
+	margin-bottom: 23px;
+}
+.info_input
+{
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 47px;
+	background: #FFFFFF;
+	padding-left: 20px;
+	border: none;
+	outline: none;
+}
+.info_input::-webkit-input-placeholder
+{
+	font-size: 12px !important;
+	font-weight: 500 !important;
+	font-style: italic;
+	color: #828282 !important;
+}
+.info_input:-moz-placeholder
+{
+	font-size: 12px !important;
+	font-weight: 500 !important;
+	font-style: italic;
+	color: #828282 !important;
+}
+.info_input::-moz-placeholder
+{
+	font-size: 12px !important;
+	font-weight: 500 !important;
+	font-style: italic;
+	color: #828282 !important;
+} 
+.info_input:-ms-input-placeholder
+{ 
+	font-size: 12px !important;
+	font-weight: 500 !important;
+	font-style: italic;
+	color: #828282 !important;
+}
+.info_input::input-placeholder
+{
+	font-size: 12px !important;
+	font-weight: 500 !important;
+	font-style: italic;
+	color: #828282 !important;
+}
+.info_select
+{
+	display: block;
+	position: relative;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    -webkit-user-select: none;
+    background-image: url(../images/down.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+    border: none;
+    outline: none;
+    font-size: 12px !important;
+	font-weight: 500 !important;
+	font-style: italic;
+	color: #828282 !important;
+    cursor: pointer;
+}
+.info_form_button
+{
+	width: 100%;
+	height: 54px;
+	background: #32c69a;
+	border: none;
+	outline: none;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-size: 11px;
+	font-weight: 600;
+	letter-spacing: 0.2em;
+	margin-top: 4px;
+	cursor: pointer;
+}
+/*********************************
+10. FAQ
+*********************************/
+
+.stuff
+{
+	width: 100%;
+	background: #f4f8fb;
+	padding-top: 99px;
+	padding-bottom: 104px;
+}
+.faq_title
+{
+	font-size: 36px;
+	font-weight: 600;
+	color: #404040;
+	line-height: 0.75;
+}
+.faq_subtitle
+{
+	float:right;
+	font-size: 11px;
+	font-weight: 600;
+	color: #838383;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	line-height: 0.75;
+	margin-top: 23px;
+}
+.elements_accordions_tabs
+{
+	margin-top: 115px;
+}
+.elements_accordions
+{
+	width: 100%;
+}
+.accordions_tabs
+{
+	width: 100%;
+	background: #FFFFFF;
+	margin-top: 100px;
+}
+.accordions
+{
+	margin-top: 100px;
+}
+.accordion_container:not(:last-child)
+{
+	margin-bottom: 14px;
+}
+.accordion
+{
+	height: 49px;
+	width: 100%;
+	background: #FFFFFF;
+	padding-left: 70px;
+	cursor: pointer;
+	color: #404040;
+	font-size: 14px;
+	font-weight: 600;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.accordion div
+{
+	max-width: 90%;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.accordion::after
+{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+	left: 0;
+	width: 50px;
+	height: 100%;
+	content: '+';
+	background: #32c69a;
+	font-size: 14px;
+	color: #FFFFFF;
+	font-weight: 500;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.accordion.active
+{
+	background: #32c69a;
+	color: #FFFFFF;
+}
+.accordion.active::after
+{
+	content: '-';
+	color: #FFFFFF;
+	background: #404040;
+}
+.accordion_panel
+{
+	padding-right: 8px;
+	max-height: 0px;
+	overflow: hidden;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+.accordion_panel > div
+{
+	padding-bottom: 11px;
+}
+.accordion_panel p
+{
+	font-size: 14px;
+	font-weight: 500;
+	padding-top: 35px;
+	color: #838383;
+	line-height: 2.14;
+}
+

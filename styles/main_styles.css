@@ -340,7 +340,7 @@ section
 	font-size: 11px;
 	font-weight: 600;
 	color: #838383;
-	line-height: 0.75;
+	line-height: 2;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
 	margin-top: 23px;
@@ -1068,7 +1068,7 @@ section
 }
 .icon_box
 {
-	margin-bottom: 85px;
+	margin-bottom: 200px;
 }
 .icon_box_icon
 {
@@ -1246,6 +1246,7 @@ section
 }
 .faq_subtitle
 {
+	float:right;
 	font-size: 11px;
 	font-weight: 600;
 	color: #838383;
@@ -1377,6 +1378,7 @@ section
 }
 .news_subtitle
 {
+	float: right;
 	font-size: 11px;
 	font-weight: 600;
 	color: #838383;
