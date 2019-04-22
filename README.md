@@ -12,14 +12,15 @@
 Here is a working live demo :  https://mentalhealthcare.herokuapp.com/
 
 ##Screenshots
+
 ### Main Page
-![](https://wxn0738xx.github.io/MentalHealthCare/images/images/readme1.png)
+![alt text](images/readme1.png)
 
 ### Appointment Page
-![](https://wxn0738xx.github.io/MentalHealthCare/images/images/readme2.png)
+![](https://wxn0738xx.github.io/MentalHealthCare/images/readme2.png)
 
 ### Event Page
-![](https://wxn0738xx.github.io/MentalHealthCare/images/images/readme3.png)
+![](https://wxn0738xx.github.io/MentalHealthCare/images/readme3.png)
 
 ## Usage
 
