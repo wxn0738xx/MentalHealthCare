@@ -34,7 +34,6 @@
 								<div class="header_top_content d-flex flex-row align-items-center justify-content-start">
 									<div class="logo">
 										<img src="images/logo.jpg" width="165" height="60" />
-										
 										<a href="home.html">Mental Health Care</a>	
 									</div>
 									<div class="header_top_extra d-flex flex-row align-items-center justify-content-start ml-auto">
@@ -96,7 +95,6 @@
 						<div class="home_content">
 							<div class="home_title">We are here if you need us</div>
 							<div class="home_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien.</div>
-							<!-- <div class="button home_button"><a href="#"><span>read more</span><span>read more</span></a></div> -->
 						</div>
 					</div>
 				</div>
@@ -123,7 +121,6 @@
 						<div class="info_content">
 							<div class="info_title"><a href="eventsdetail.html">Emergency Medicine Research Course</a></div>
 							<div class="info_text">Arcu neque, scelerisque eget ligula ac, congue tempor felis. Integer tempor, eros a egestas finibus, dolor risus mollis.</div>
-							<!-- <div class="button info_button"><a href="event.html"><span>read more</span><span>read more</span></a></div> -->
 						</div>
 					</div>
 				</div>
@@ -135,7 +132,6 @@
 						<div class="info_content">
 							<div class="info_title"><a href="eventsdetail.html">Mental Health Online Conference</a></div>
 							<div class="info_text">Morbi arcu neque, scelerisque eget ligula ac, congue tempor felis. Integer tempor, eros a egestas finibus, dolor risus.</div>
-							<!-- <div class="button info_button"><a href="event.html"><span>read more</span><span>read more</span></a></div> -->
 						</div>
 					</div>
 				</div>
@@ -147,14 +143,10 @@
 							<div class="info_content">
 								<div class="info_title"><a href="eventsdetail.html">Mental Health Care Workshop</a></div>
 								<div class="info_text">Morbi arcu neque, scelerisque eget ligula ac, congue tempor felis. Integer tempor, eros a egestas finibus, dolor risus.</div>
-								<!-- <div class="button info_button"><a href="event.html"><span>read more</span><span>read more</span></a></div> -->
 							</div>
 						</div>
 					</div>
-
-					
 				</div>
-				
 			</div>
 			<br><br>
 			<div class="row">
@@ -162,7 +154,6 @@
 						<div class="button services_button ml-auto mr-auto"><a href="event.html"><span>More Events</span><span>More Events</span></a></div>
 					</div>
 				</div>
-			
 		</div>
 	</div>
 
@@ -170,31 +161,19 @@
 
 <!-- Services -->
 
-
 <div class="services">
 		<div class="container">
 			
 			<div class="row">
 				<div class="col text-center">
 					<div class="section_title">Services</div>
-					
 				</div>
-
 			</div>
-			<!-- <table  align="center">
-					<tr>
-			<td><iframe align="center" src="https://www.youtube.com/embed/7R2j-gxPePE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="width:800px;height:400px;" ></iframe></td>			
-		<td>asdfas</td>s
-		</tr>	
-		</table> -->
-
 			<div class="row icon_boxes_row">
 				
 <!-- Info Box -->
 <div class="col-lg-4 info_box_col">
 		<div class="info_box">
-			<!-- <div class="info_image"><iframe  src="https://www.youtube.com/embed/Exk4-aJ3qy4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-			</div> -->
 			<div class="info_content">
 				<div class="info_title"><a  href="servicesdetail.html">Mental health services for children</a></div>
 				<div class="info_text">Morbi arcu neque, scelerisque eget ligula ac, congue tempor felis. Integer tempor, eros a egestas finibus, dolor risus.</div>
@@ -205,26 +184,18 @@
 	<!-- Info Box -->
 <div class="col-lg-4 info_box_col">
 		<div class="info_box">
-			<!-- <div class="info_image"><iframe  src="https://www.youtube.com/embed/Exk4-aJ3qy4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-			</div> -->
 			<div class="info_content">
 				<div class="info_title"><a  href="servicesdetail.html">Mental health services for older people</a></div>
 				<div class="info_text">Morbi arcu neque, scelerisque eget ligula ac, congue tempor felis. Integer tempor, eros a egestas finibus, dolor risus.</div>
-				<!-- <div class="button info_button"><a href="#"><span>read more</span><span>read more</span></a></div> -->
 			</div>
 		</div>
 	</div>
 	<!-- Info Box -->
 <div class="col-lg-4 info_box_col">
-		<!-- <div class="info_box"> -->
-			<!-- <div class="info_image"><iframe  src="https://www.youtube.com/embed/Exk4-aJ3qy4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-			</div> -->
 			<div class="info_content">
 				<div class="info_title"><a  href="servicesdetail.html">Telephone and online support</a></div>
 				<div class="info_text">Morbi arcu neque, scelerisque eget ligula ac, congue tempor felis. Integer tempor, eros a egestas finibus, dolor risus.</div>
-				<!-- <div class="button info_button"><a href="#"><span>read more</span><span>read more</span></a></div> -->
 			</div>
-		<!-- </div> -->
 	</div>
 
 			</div>
@@ -237,7 +208,6 @@
 	</div>
 
 <!-- Make Appointment Now -->
-
 
 	<div class="cta">
 			<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/cta_1.jpg" data-speed="0.8"></div>
@@ -296,7 +266,6 @@
 										</div>
 									</div>
 								</div>
-
 							</div>
 						</div>
 					</div>
@@ -348,7 +317,6 @@
 									</div>
 								</div>
 							</div>
-
 						</div>
 					</div>
 				</div>
@@ -366,7 +334,6 @@
 		<div class="footer_content">
 			<div class="container">
 				<div class="row">
-
 
 					<!-- Footer Topics -->
 					<div class="col-lg-3 footer_col">
@@ -415,8 +382,6 @@
 							</div>
 						</div>
 
-					
-					
 					</div>
 				</div>
 			</div>
