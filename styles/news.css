@@ -82,6 +82,10 @@ p:last-of-type
 {
 	margin-bottom: 0;
 }
+a
+{
+	color:#404040;
+}
 a, a:hover, a:visited, a:active, a:link
 {
 	text-decoration: none;
@@ -220,7 +224,8 @@ section
 .parallax-window
 {
     min-height: 400px;
-    background: transparent;
+	/* background: transparent; */
+	background-color: #6a6d72;
 }
 .parallax_background
 {
@@ -1305,7 +1310,15 @@ section
 {
 	font-size: 14px;
 	font-weight: 500;
-	color: #d3d3d3;
+	color:#FFFFFF;
+	line-height: 2.14;
+	margin-top: 39px;
+}
+.footer_about_text a
+{
+	font-size: 14px;
+	font-weight: 500;
+	color:#FFFFFF;
 	line-height: 2.14;
 	margin-top: 39px;
 }
