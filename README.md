@@ -17,11 +17,10 @@ Here is a working live demo :  https://mentalhealthcare.herokuapp.com/
 ![alt text](images/readme1.png)
 
 ### Appointment Page
-![](https://wxn0738xx.github.io/MentalHealthCare/images/readme2.png)
+![alt text](images/readme2.png)
 
 ### Event Page
-![](https://wxn0738xx.github.io/MentalHealthCare/images/readme3.png)
-
+![alt text](images/readme3.png)
 ## Usage
 
 Open ***home.html*** with a browser.
