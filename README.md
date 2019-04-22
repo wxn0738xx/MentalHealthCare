@@ -11,6 +11,16 @@
 
 Here is a working live demo :  https://mentalhealthcare.herokuapp.com/
 
+## Screenshots
+
+### Main Page
+![alt text](images/readme1.png)
+
+### Appointment Page
+![alt text](images/readme2.png)
+
+### Event Page
+![alt text](images/readme3.png)
 ## Usage
 
 Open ***home.html*** with a browser.
