@@ -11,7 +11,7 @@
 
 Here is a working live demo :  https://mentalhealthcare.herokuapp.com/
 
-##Screenshots
+## Screenshots
 
 ### Main Page
 ![alt text](images/readme1.png)
