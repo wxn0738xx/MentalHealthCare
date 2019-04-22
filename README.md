@@ -11,6 +11,16 @@
 
 Here is a working live demo :  https://mentalhealthcare.herokuapp.com/
 
+##Screenshots
+### Main Page
+![image](http://github.com/wxn0738xx/MentalHealthCare/images/readme1.png)
+
+### Appointment Page
+![image](http://github.com/wxn0738xx/MentalHealthCare/images/readme2.png)
+
+### Event Page
+![image](http://github.com/wxn0738xx/MentalHealthCare/images/readme3.png)
+
 ## Usage
 
 Open ***home.html*** with a browser.
